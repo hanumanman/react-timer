@@ -34,7 +34,7 @@ ul::-webkit-scrollbar-track {
 
 ul::-webkit-scrollbar-thumb {
   border-radius: 10px;
-  background: linear-gradient(left, #fff, #e4e4e4);
+  background: #e4e4e4;
   border: 1px solid #aaa;
 }
 
@@ -43,5 +43,5 @@ ul::-webkit-scrollbar-thumb:hover {
 }
 
 ul::-webkit-scrollbar-thumb:active {
-  background: linear-gradient(left, #22add4, #1e98ba);
+  background: #1e98ba;
 }
