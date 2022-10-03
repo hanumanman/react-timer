@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+---
+author: tuan hoang
+title: React Timer
+id: cs-virgil-2.2-react-eco
+---
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React Timer
 
-## Available Scripts
+:timer*clock: \_Building a timer using create-react-app.*
 
-In the project directory, you can run:
+The purpose of this project is to practice our React hooks skills such as `useState` `useRef` and `Custom Hook`
 
-### `npm start`
+Everyone know what a timer is eventhough not all timers look the same. Today, we are making a timer that look like this , (_or better!_)
+![clock](https://i.ibb.co/0nYMqfL/Screen-Shot-2022-03-12-at-18-07-21.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[Check out this demo to see it in action !](https://cs-react-timer.netlify.app/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## User Story
 
-### `npm test`
+- User click start button to start the timer
+- User can not click start button while timer is running
+- User click stop button to see timer stop
+- User can click start to re-start the timer after stop
+- User can click reset button at anytime to reset the timer
+- :rocket: User see a different timer than the one from this example. _Meaning you should change the UI display_
+- :rocket::rocket::rocket: User can "split" the timer, creating multiple records of time per "split-button clicked"
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Requirement
 
-### `npm run build`
+Fork this [repo](https://github.com/coderschool/cs-react-timer-starter-code) and read through the files.
+Often time , developers are required to work with an existing codebase and improve upon. This is one of that time.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+You should only code in the designinated area.
+Using the VSC search function for "Your code here", you will see a list of all the placces that required your attention.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Grading
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+| Requirement                                       | Grade |
+| ------------------------------------------------- | ----- |
+| Missing any of the user story that are not rocket | - 5   |
+| Made rocket                                       | + 10  |
